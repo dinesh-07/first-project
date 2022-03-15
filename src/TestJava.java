@@ -1,9 +1,17 @@
 public class TestJava {
 
 	/*
-	 * @author Aman Yadav
+	 * @author Aman Yadav a = [1,2,4,5] sum -> 12
 	 */
 	private static int addAll(int a[]) {
+		return 0;
+
+	}
+
+	/*
+	 * @author Vandan a = [1,2,4,5] sum -> -10
+	 */
+	private static int subAll(int a[]) {
 		return 0;
 
 	}
@@ -49,6 +57,8 @@ public class TestJava {
 		System.out.println(multiplyAll(a));
 
 		System.out.println(addAll(a));
+
+		System.out.println(subAll(a));
 	}
 
 }
